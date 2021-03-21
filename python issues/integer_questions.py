@@ -25,5 +25,26 @@
 #print(num_sum(-1024))
 #print(num_sum(-10.24))
 #print(num_sum(-1012312424))
+#some_list = [5, 4, 3, 2, 1]
+#for i, x in enumerate(some_list):
+#    print(i, x)
+#li = ['1', '2', '3', '4', '5']
+#mymap = map(str.upper,li)
+#for item in mymap:
+#    print(item)
+
+"""def dict(lst):
+    for i in range(len(lst)):
+        slovar.update({lst[i]: lst[i]})
+
+slovar = {}
+dict(["q", "w", "e", "r", "t", "y"])
+print(slovar)"""
+def to_dict(lst):
+    return {element: element for element in lst}
 
 
+
+lst1 = ["q", "w", "e", "r", "t", "y"]
+slovar = to_dict(lst1)
+print(slovar)
