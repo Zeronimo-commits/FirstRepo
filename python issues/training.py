@@ -39,7 +39,7 @@
 
 slovar = {}
 dict(["q", "w", "e", "r", "t", "y"])
-print(slovar)"""
+print(slovar)
 def to_dict(lst):
     return {element: element for element in lst}
 
@@ -47,4 +47,5 @@ def to_dict(lst):
 
 lst1 = ["q", "w", "e", "r", "t", "y"]
 slovar = to_dict(lst1)
-print(slovar)
+print(slovar)"""
+
