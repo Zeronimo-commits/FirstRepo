@@ -33,19 +33,20 @@
 #for item in mymap:
 #    print(item)
 
-"""def dict(lst):
-    for i in range(len(lst)):
-        slovar.update({lst[i]: lst[i]})
-
-slovar = {}
-dict(["q", "w", "e", "r", "t", "y"])
-print(slovar)
-def to_dict(lst):
-    return {element: element for element in lst}
-
-
-
-lst1 = ["q", "w", "e", "r", "t", "y"]
-slovar = to_dict(lst1)
-print(slovar)"""
-
+#def dict(lst):
+#    for i in range(len(lst)):
+#        slovar.update({lst[i]: lst[i]})
+#
+#slovar = {}
+#dict(["q", "w", "e", "r", "t", "y"])
+#print(slovar)
+#def to_dict(lst):
+#    return {element: element for element in lst}
+#
+#
+#
+#lst1 = ["q", "w", "e", "r", "t", "y"]
+#slovar = to_dict(lst1)
+#print(slovar)
+#
+#
